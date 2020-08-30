@@ -33,7 +33,7 @@ ctx.verify_mode = ssl.CERT_NONE
 fh = open("where.data")
 count = 0
 for line in fh:
-    if count > 200 :
+    if count > 50 :
         print('Retrieved 200 locations, restart to retrieve more')
         break
 
